@@ -1,0 +1,11 @@
+[
+    { "key" : 1, "name" : "SWEDBANK"},
+    { "key" : 2, "name" : "IKANOBANKEN"},
+    { "key" : 3, "name" : "JPMORGAN"},
+    { "key" : 4, "name" : "NORDEA"},
+    { "key" : 5, "name" : "CITIBANK"},
+    { "key" : 6, "name" : "HANDELSBANKEN"},
+    { "key" : 7, "name" : "SBAB"},
+    { "key" : 8, "name" : "HSBC"},
+    { "key" : 9, "name" : "NORDNET" }
+]

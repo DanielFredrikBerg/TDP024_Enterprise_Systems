@@ -1,0 +1,49 @@
+[2022-10-11T06:23:53.382+0200][gc] Using G1
+[2022-10-11T06:23:53.398+0200][gc,init] Version: 17.0.4+8-Ubuntu-122.04 (release)
+[2022-10-11T06:23:53.398+0200][gc,init] CPUs: 8 total, 8 available
+[2022-10-11T06:23:53.398+0200][gc,init] Memory: 32052M
+[2022-10-11T06:23:53.398+0200][gc,init] Large Page Support: Disabled
+[2022-10-11T06:23:53.398+0200][gc,init] NUMA Support: Disabled
+[2022-10-11T06:23:53.398+0200][gc,init] Compressed Oops: Enabled (32-bit)
+[2022-10-11T06:23:53.398+0200][gc,init] Heap Region Size: 1M
+[2022-10-11T06:23:53.398+0200][gc,init] Heap Min Capacity: 512M
+[2022-10-11T06:23:53.398+0200][gc,init] Heap Initial Capacity: 512M
+[2022-10-11T06:23:53.398+0200][gc,init] Heap Max Capacity: 512M
+[2022-10-11T06:23:53.399+0200][gc,init] Pre-touch: Disabled
+[2022-10-11T06:23:53.399+0200][gc,init] Parallel Workers: 8
+[2022-10-11T06:23:53.399+0200][gc,init] Concurrent Workers: 2
+[2022-10-11T06:23:53.399+0200][gc,init] Concurrent Refinement Workers: 8
+[2022-10-11T06:23:53.399+0200][gc,init] Periodic GC: Disabled
+[2022-10-11T06:23:53.399+0200][gc,metaspace] CDS archive(s) mapped at: [0x0000000800000000-0x0000000800be3000-0x0000000800be3000), size 12464128, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 0.
+[2022-10-11T06:23:53.399+0200][gc,metaspace] Compressed class space mapped at: 0x0000000800c00000-0x0000000840c00000, reserved size: 1073741824
+[2022-10-11T06:23:53.399+0200][gc,metaspace] Narrow klass base: 0x0000000800000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[2022-10-11T06:24:17.345+0200][gc,start    ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
+[2022-10-11T06:24:17.346+0200][gc,task     ] GC(0) Using 8 workers of 8 for evacuation
+[2022-10-11T06:24:17.348+0200][gc,phases   ] GC(0)   Pre Evacuate Collection Set: 0,1ms
+[2022-10-11T06:24:17.348+0200][gc,phases   ] GC(0)   Merge Heap Roots: 0,1ms
+[2022-10-11T06:24:17.348+0200][gc,phases   ] GC(0)   Evacuate Collection Set: 2,3ms
+[2022-10-11T06:24:17.348+0200][gc,phases   ] GC(0)   Post Evacuate Collection Set: 0,3ms
+[2022-10-11T06:24:17.348+0200][gc,phases   ] GC(0)   Other: 1,1ms
+[2022-10-11T06:24:17.348+0200][gc,heap     ] GC(0) Eden regions: 25->0(21)
+[2022-10-11T06:24:17.348+0200][gc,heap     ] GC(0) Survivor regions: 0->4(4)
+[2022-10-11T06:24:17.348+0200][gc,heap     ] GC(0) Old regions: 0->3
+[2022-10-11T06:24:17.348+0200][gc,heap     ] GC(0) Archive regions: 2->2
+[2022-10-11T06:24:17.348+0200][gc,heap     ] GC(0) Humongous regions: 0->0
+[2022-10-11T06:24:17.348+0200][gc,metaspace] GC(0) Metaspace: 7934K(8064K)->7934K(8064K) NonClass: 7043K(7104K)->7043K(7104K) Class: 891K(960K)->891K(960K)
+[2022-10-11T06:24:17.348+0200][gc          ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 25M->7M(512M) 3,858ms
+[2022-10-11T06:24:17.348+0200][gc,cpu      ] GC(0) User=0,02s Sys=0,00s Real=0,00s
+[2022-10-11T11:07:47.809+0200][gc,start    ] GC(1) Pause Young (Normal) (G1 Evacuation Pause)
+[2022-10-11T11:07:47.809+0200][gc,task     ] GC(1) Using 8 workers of 8 for evacuation
+[2022-10-11T11:07:47.812+0200][gc,phases   ] GC(1)   Pre Evacuate Collection Set: 0,1ms
+[2022-10-11T11:07:47.812+0200][gc,phases   ] GC(1)   Merge Heap Roots: 0,1ms
+[2022-10-11T11:07:47.812+0200][gc,phases   ] GC(1)   Evacuate Collection Set: 2,3ms
+[2022-10-11T11:07:47.812+0200][gc,phases   ] GC(1)   Post Evacuate Collection Set: 0,2ms
+[2022-10-11T11:07:47.812+0200][gc,phases   ] GC(1)   Other: 0,1ms
+[2022-10-11T11:07:47.812+0200][gc,heap     ] GC(1) Eden regions: 21->0(24)
+[2022-10-11T11:07:47.812+0200][gc,heap     ] GC(1) Survivor regions: 4->1(4)
+[2022-10-11T11:07:47.812+0200][gc,heap     ] GC(1) Old regions: 3->8
+[2022-10-11T11:07:47.812+0200][gc,heap     ] GC(1) Archive regions: 2->2
+[2022-10-11T11:07:47.812+0200][gc,heap     ] GC(1) Humongous regions: 0->0
+[2022-10-11T11:07:47.812+0200][gc,metaspace] GC(1) Metaspace: 8708K(8896K)->8708K(8896K) NonClass: 7794K(7872K)->7794K(7872K) Class: 914K(1024K)->914K(1024K)
+[2022-10-11T11:07:47.812+0200][gc          ] GC(1) Pause Young (Normal) (G1 Evacuation Pause) 28M->8M(512M) 2,954ms
+[2022-10-11T11:07:47.812+0200][gc,cpu      ] GC(1) User=0,01s Sys=0,01s Real=0,00s

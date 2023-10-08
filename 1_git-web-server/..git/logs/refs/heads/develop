@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 8014c20b0228b93eea8d8173844f644d8dbc5b26 Andrei Plotoaga <andpl509@student.liu.se> 1662662398 +0200	branch: Created from refs/remotes/origin/develop
+8014c20b0228b93eea8d8173844f644d8dbc5b26 569e231ebe02bdc6f099ddf0b31ecaa3967764a8 Andrei Plotoaga <andpl509@student.liu.se> 1662662518 +0200	merge new_feature: Fast-forward
+569e231ebe02bdc6f099ddf0b31ecaa3967764a8 7121d9ab7ea8f603e7c6f895de08038d3c7c37a0 Andrei Plotoaga <andpl509@student.liu.se> 1662662634 +0200	commit (merge): merged with add-tests
+7121d9ab7ea8f603e7c6f895de08038d3c7c37a0 c5246b57545bea3323644e6f4bbd8728be00d64a Andrei Plotoaga <andpl509@student.liu.se> 1662662823 +0200	merge implement-api: Fast-forward
+c5246b57545bea3323644e6f4bbd8728be00d64a c784a5f16daf48dfc4f13224b3038fb62db2ad02 Andrei Plotoaga <andpl509@student.liu.se> 1662663008 +0200	reset: moving to c784a5f16daf48dfc4f13224b3038fb62db2ad02
+c784a5f16daf48dfc4f13224b3038fb62db2ad02 dcea5de34d1e1a12b6a361a597ef70f592b6e53e Andrei Plotoaga <andpl509@student.liu.se> 1662663036 +0200	commit: removed bad commit
+dcea5de34d1e1a12b6a361a597ef70f592b6e53e b3efa7241ab507ca392fe46ce64755f89048939e Andrei Plotoaga <andpl509@student.liu.se> 1662663367 +0200	rebase (finish): refs/heads/develop onto d1decb570a9a3f0b809e75991feca57c124a55c4
+b3efa7241ab507ca392fe46ce64755f89048939e c64d3eb833f2ea99d4536a465dff64ad8eb20224 Andrei Plotoaga <andpl509@student.liu.se> 1662663859 +0200	cherry-pick: Refactor database configuration

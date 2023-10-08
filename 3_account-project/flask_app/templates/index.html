@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+    {{ super() }}
+    <style type="text/css">
+        .important { color: #336699; }
+    </style>
+{% endblock %}
+{% block content %}
+    <h1>JSON contents</h1>
+    <ul>
+      {% for entry in banks %}
+      <li>{{ banks[entry] }}</li>
+      {% endfor %}
+    </ul>
+    <h2>Found bank:<h2>
+	{% if found_bank != 'null' %}
+	<p>{{ found_bank }}</p>
+	{% else %}
+	<p>Bank not found</p>
+	{% endif %}
+{% endblock %}

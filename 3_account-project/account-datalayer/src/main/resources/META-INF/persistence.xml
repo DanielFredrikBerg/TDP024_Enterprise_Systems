@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="account-dataPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>se.liu.ida.tdp024.account.data.impl.db.entity.AccountEntity</class>
+    <class>se.liu.ida.tdp024.account.data.impl.db.entity.TransactionEntity</class>
+    <shared-cache-mode>NONE</shared-cache-mode>
+    <validation-mode>NONE</validation-mode>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:derby:memory:dataPU_embedded;create=true"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+      <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+      <property name="javax.persistence.jdbc.user" value=""/>
+      <property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>
+    </properties>
+  </persistence-unit>
+</persistence>

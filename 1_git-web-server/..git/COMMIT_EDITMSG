@@ -1,0 +1,25 @@
+# This is a combination of 2 commits.
+# This is the 1st commit message:
+
+Add a todo in todo.go
+
+# This is the commit message #2:
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Author:    Simon Lindblad <simon.lindblad93@gmail.com>
+# Date:      Thu May 19 22:34:57 2016 +0200
+#
+# interactive rebase in progress; onto d1decb5
+# Last commands done (2 commands done):
+#    pick 294e4c1 Add a todo in todo.go
+#    squash c784a5f Add one more todo in todo.go
+# Next command to do (1 remaining command):
+#    pick dcea5de removed bad commit
+# You are currently rebasing branch 'develop' on 'd1decb5'.
+#
+# Changes to be committed:
+#	modified:   todo.go
+#
