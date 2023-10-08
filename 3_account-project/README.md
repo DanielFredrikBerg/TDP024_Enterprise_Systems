@@ -1,4 +1,5 @@
 # TDP024 Account Projekt lab 3 och 4
+Expected to use kafka_2.13-3.2.1 which is needed to run the SOA app. Place the kafka_2.13-3.2.1 folder in the 3_account-project dir.
 
 THE SCREENCAST FOR LAB 3 OF XFINAL TESTS COMPLETION IS BOTH IN main AND IN THE BRANCH xfinal_done. THE .mkv VIDEO IS IN 3_account-project
 
